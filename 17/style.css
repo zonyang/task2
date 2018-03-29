@@ -1,0 +1,29 @@
+.aqi-chart-wrap {
+	z-index: 0;
+	position: relative;
+	border: blue 1px solid;
+	height: 550px;
+	width: 90%;
+	margin: 20px auto 0;
+}
+.row {
+	position: absolute;
+	bottom: 0;
+	/*float: left;*/
+}
+.chart-title {
+ 	text-align:center;
+ 	margin-top: 5px;
+}
+.text {
+	z-index: 1;
+	height: 50px;
+	width: 80px;
+	border: 1px solid #797982;
+	position: relative;
+	top: -80px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+	background-color: white;
+}
