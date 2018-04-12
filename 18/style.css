@@ -1,0 +1,18 @@
+.num {
+	border-style: 1px #d8d3d3;
+}
+button {
+	background-color: white;
+	border-color: #d8d3d3;
+}
+#rightIn {
+	margin-right: 10px;
+}
+.block {
+	float: left;
+	background-color: red;
+	color: white;
+	padding: 10px;
+	margin: 3px 5px;
+	text-align: center;
+}
