@@ -1,0 +1,26 @@
+.num {
+	border-style: 1px #d8d3d3;
+}
+button {
+	background-color: white;
+	border-color: #d8d3d3;
+}
+#rightIn {
+	margin-right: 10px;
+}
+#tags {
+	margin-top: 10px;
+	overflow: hidden;
+}
+#hobys {
+	margin-top: 10px;
+	overflow: hidden;
+}
+.block {
+	float: left;
+	background-color: red;
+	width: 60px;
+	margin-right: 20px;
+	height: 60px;
+	word-break: break-all;
+}
