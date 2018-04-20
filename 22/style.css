@@ -1,0 +1,56 @@
+#binaryTree {
+	background-color: white;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 85%;
+	height: 400px;
+	margin: 50px auto 0;
+}
+#one1,#one2 {
+	background-color: white;
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 85%;
+	width: 42.5%;
+}
+#one:first-child {
+}
+#one:last-child {
+}
+#two1,#two2,#two3,#two4 {
+	background-color: white;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 85%;
+	width: 42.5%;
+}
+#two:first-child {
+}
+#two:last-child {
+}
+#three1,#three2,#three3,#three4,#three5,#three6,#three7,#three8 {
+	background-color: white;
+	border: 1px solid blue;
+	height: 85%;
+	width: 42.5%;
+}
+#three:first-child {
+}
+#three:last-child {
+}
+button {
+	width: 100px;
+	height: 50px;
+	position: relative;
+	left: 7.5%;
+	bottom: -30px;
+}
