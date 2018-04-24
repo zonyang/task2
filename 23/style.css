@@ -1,0 +1,54 @@
+div {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 1px solid blue;
+	height: 80%;
+	word-break: break-all;
+	margin: auto;
+}
+#binaryTree {
+	border: 1px solid black;
+	align-items: center;
+	width: 85%;
+	height: 400px;
+	margin: 50px auto 0;
+}
+#one1,#one2 {
+	width: 40%;
+}
+#one3{
+	width: 10%;
+}
+#two21,#two22 {
+	width: 40%;
+}
+#one1,#one2,#one3 {
+	border: 1px solid purple;
+}
+#two11 {
+	width: 50%;
+}
+#two13 {
+	width: 30%;
+}
+#two11, #two12, #two13, #two21, #two22 {
+	border: 1px solid red;
+}
+#three221 {
+	width: 40%
+}
+#four2211 {
+	border: 1px solid orange;
+}
+button, #text {
+	width: 10%;
+	height: 8%;
+	position: relative;
+	left: 7.5%;
+	top: 10px;
+}	
+#text {
+	width: 20%;
+}
