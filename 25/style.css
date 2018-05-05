@@ -1,0 +1,50 @@
+.abssh {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 1px solid blue;
+	height: 80%;
+	word-break: break-all;
+	margin: auto;
+}
+.node {
+	padding: 5px 5px 5px 40px;
+}
+.hidden{
+	display: none;
+}
+.arrow {
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.empty {
+    width: 0;
+    height: 0;
+}
+.down {
+    width: 0;
+    height: 0;
+    border-width: 10px 5px 0px 5px;
+    border-style: solid;
+    border-color: #6898c2 transparent transparent transparent;
+}
+.right {
+    width: 0;
+    height: 0;
+    border-width: 5px 0px 5px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #6898c2;
+}
+span {
+	color: #6898f4;
+	font-size: 12px;
+	cursor: pointer;
+}
+.add, .del {
+	display: none;
+}
+.Head:hover>.add,.Head:hover>.del {
+	display: inline;
+}
